@@ -29,6 +29,7 @@
 				<thead>
 					<tr>
 						<th class="text-center">#</th>
+						<th class="text-center">Invoice</th>
 						<th class="text-center">Category</th>
 						<th class="text-center">Product Name</th>
 						<th class="text-center">Size</th>
@@ -45,6 +46,8 @@
 					<?php foreach ($result as $key => $data) { ?>
 						<tr>
 							<td class="text-center"><?= $no++; ?></td>
+							<td class="text-center"><?= $data->invoice ?>
+								<hr><?= $data->discount ?></td>
 							<td><?= $data->name_categories ?></td>
 							<td><?= $data->item_name ?></td>
 							<td class="text-center"><?= $data->size ?></td>

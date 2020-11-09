@@ -201,6 +201,20 @@ date_default_timezone_set("Asia/Bangkok");
 						</tr>
 						<tr>
 							<td style="vertical-align: top; width: 29%">
+								<label for="note">Status Pembayaran</label>
+							</td>
+							<td>
+								<div class="form-group">
+									<select name="note" id="note" class="form-control select2">
+										<option value="">-- Pilih --</option>
+										<option value="1">Lunas</option>
+										<option value="0">Belum Lunas</option>
+									</select>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td style="vertical-align: top; width: 29%">
 								<label for="change">Change</label>
 							</td>
 							<td>
@@ -214,28 +228,6 @@ date_default_timezone_set("Asia/Bangkok");
 			</div>
 		</div>
 		<!--  -->
-		<div class="col-md-3">
-			<div class="box">
-				<div class="box-body">
-					<table style="width: 100%;">
-						<tr>
-							<td style="vertical-align: top; width: 29%">
-								<label for="note">Status Pembayaran</label>
-							</td>
-							<td>
-								<div class="form-group">
-									<select name="note" id="note" class="form-control select2">
-										<option value="">-- Pilih --</option>
-										<option value="1">Lunas</option>
-										<option value="0">Belum Lunas</option>
-									</select>
-								</div>
-							</td>
-						</tr>
-					</table>
-				</div>
-			</div>
-		</div>
 		<div class="col-md-3">
 			<div class="box">
 				<div class="box-body">
